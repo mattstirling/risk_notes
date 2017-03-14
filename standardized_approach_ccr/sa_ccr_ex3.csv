@@ -1,0 +1,4 @@
+trade_id,nature,Underlying,Direction,residual_maturity,S_i,E_i,notional,mtm,asset_class_cd
+ex3_trade1,Forward,WTI Crude Oil,Long,9 month,0,0.75,10000000,-50000,commodity_oil/gas
+ex3_trade2,Forward,Brent Crude Oil,Short,2 year,0,2.00,20000000,-30000,commodity_oil/gas
+ex3_trade3,Forward,Silver,Long,5 year,0,5.00,10000000,100000,commodity_metals

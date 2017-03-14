@@ -1,0 +1,2 @@
+netting_set,margin_frequency,TH,MTA,NICA,C,margin_freq_days
+ex5_netting_set,weekly,0,5000,150000,200000,5

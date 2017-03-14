@@ -1,0 +1,4 @@
+trade_id,nature,Reference entity / index name,residual_maturity,S_i,E_i,base_currency,notional,position,mtm,asset_class_cd
+ex2_trade1,Single-name CDS,Firm A,3 year,0,3,USD,10000000,Protection buyer,20000,credit_single_name_AA
+ex2_trade2,Single-name CDS,Firm B,6 year,0,6,EUR,10000000,Protection seller,-40000,credit_single_name_BBB
+ex2_trade3,CDS Index,CDX.IG 5y,5 year,0,5,USD,10000000,Protection buyer,0,credit_index_IG

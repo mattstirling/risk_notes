@@ -1,0 +1,7 @@
+trade_id,nature,Reference entity / index name,base_currency,Underlying,hedging_set,hedging_factor,residual_maturity,S_i,E_i,notional,position,mtm,asset_class_cd,netting_set,delta_i,MF_i
+ex1_trade1,interest rate swap,,USD,,USD,5Y+,10 year,0,10,10000000,"pay fixed, rec floating",30000,interest_rate,ex5_netting_set,1,1
+ex1_trade2,interest rate swap,,USD,,USD,1Y+_5Y,4 year,0,4,10000000,"pay floating, rec fixed",-20000,interest_rate,ex5_netting_set,-1,1
+ex1_trade3,european swaption,,EUR,,EUR,5Y+,1 into 10 year,1,11,5000000,"pay floating, rec fixed",50000,interest_rate,ex5_netting_set,-0.27,1
+ex3_trade1,Forward,,,WTI Crude Oil,energy,crude_oil,9 month,0,0.75,10000000,Long,-50000,commodity_oil/gas,ex5_netting_set,1,1
+ex3_trade2,Forward,,,Brent Crude Oil,energy,crude_oil,2 year,0,2,20000000,Short,-30000,commodity_oil/gas,ex5_netting_set,-1,1
+ex3_trade3,Forward,,,Silver,metals,silver,5 year,0,5,10000000,Long,100000,commodity_metals,ex5_netting_set,1,1

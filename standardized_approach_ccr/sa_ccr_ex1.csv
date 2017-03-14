@@ -1,0 +1,4 @@
+trade_id,nature,residual_maturity,base_currency,notional,pay_leg,rec_leg,mtm
+1,interest rate swap,10 year,USD,10000000,fixed,floating,30000
+2,interest rate swap,4 year,USD,10000000,floating,fixed,-20000
+3,european swaption,1 into 10 year,EUR,5000000,floating,fixed,50000

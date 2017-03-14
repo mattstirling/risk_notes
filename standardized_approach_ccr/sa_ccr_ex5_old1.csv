@@ -1,0 +1,10 @@
+trade_id,nature,Reference entity / index name,base_currency,Underlying,residual_maturity,S_i,E_i,maturity_bucket,notional,position,mtm,asset_class_cd,netting_set,delta_i,MF_i
+ex1_trade1,interest rate swap,,USD,,10 year,0,10,5Y+,10000000,"pay fixed, rec floating",30000,interest_rate,ex5_netting_set,1,1
+ex1_trade2,interest rate swap,,USD,,4 year,0,4,1Y+_5Y,10000000,"pay floating, rec fixed",-20000,interest_rate,ex5_netting_set,-1,1
+ex1_trade3,european swaption,,EUR,,1 into 10 year,1,11,5Y+,5000000,"pay floating, rec fixed",50000,interest_rate,ex5_netting_set,-0.27,1
+ex2_trade1,Single-name CDS,Firm A,USD,,3 year,0,3,0+,0,Protection buyer,0,credit_single_name_AA,ex2_netting_set,1,1
+ex2_trade2,Single-name CDS,Firm B,EUR,,6 year,0,6,0+,0,Protection seller,0,credit_single_name_BBB,ex2_netting_set,-1,1
+ex2_trade3,CDS Index,CDX.IG 5y,USD,,5 year,0,5,0+,0,Protection buyer,0,credit_index_IG,ex2_netting_set,1,1
+ex3_trade1,Forward,,,WTI Crude Oil,9 month,0,0.75,0+,10000000,Long,-50000,commodity_oil/gas,ex5_netting_set,1,1
+ex3_trade2,Forward,,,Brent Crude Oil,2 year,0,2,0+,20000000,Short,-30000,commodity_oil/gas,ex5_netting_set,-1,1
+ex3_trade3,Forward,,,Silver,5 year,0,5,0+,10000000,Long,100000,commodity_metals,ex5_netting_set,1,1

@@ -1,0 +1,7 @@
+trade_id,nature,Reference entity / index name,base_currency,Underlying,hedging_set,hedging_factor,residual_maturity,S_i,E_i,notional,position,mtm,asset_class_cd,netting_set,delta_i,MF_i
+ex1_trade1,interest rate swap,,USD,,USD,5Y+,10 year,0,10,10000000,"pay fixed, rec floating",30000,interest_rate,ex4_netting_set,1,1
+ex1_trade2,interest rate swap,,USD,,USD,1Y+_5Y,4 year,0,4,10000000,"pay floating, rec fixed",-20000,interest_rate,ex4_netting_set,-1,1
+ex1_trade3,european swaption,,EUR,,EUR,5Y+,1 into 10 year,1,11,5000000,"pay floating, rec fixed",50000,interest_rate,ex4_netting_set,-0.27,1
+ex2_trade1,Single-name CDS,Firm A,USD,,credit,firm_A,3 year,0,3,10000000,Protection buyer,20000,credit_single_name_AA,ex4_netting_set,1,1
+ex2_trade2,Single-name CDS,Firm B,EUR,,credit,firm_B,6 year,0,6,10000000,Protection seller,-40000,credit_single_name_BBB,ex4_netting_set,-1,1
+ex2_trade3,CDS Index,CDX.IG 5y,USD,,credit,CDX.IG_5y,5 year,0,5,10000000,Protection buyer,0,credit_index_IG,ex4_netting_set,1,1
