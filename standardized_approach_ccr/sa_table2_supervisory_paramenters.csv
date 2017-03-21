@@ -1,0 +1,19 @@
+asset_class_cd,asset_cd,Asset Class,Subclass,Supervisory factor,Correlation,Supervisory option volatility
+interest_rate,interest_rate,Interest rate,,0.005,N/A,0.5
+foreign_exchange,foreign_exchange,Foreign exchange,,0.04,N/A,0.15
+credit_single_name_AAA,credit,"Credit, Single Name",AAA,0.0038,0.5,1
+credit_single_name_AA,credit,"Credit, Single Name",AA,0.0038,0.5,1
+credit_single_name_A,credit,"Credit, Single Name",A,0.0042,0.5,1
+credit_single_name_BBB,credit,"Credit, Single Name",BBB,0.0054,0.5,1
+credit_single_name_BB,credit,"Credit, Single Name",BB,0.0106,0.5,1
+credit_single_name_B,credit,"Credit, Single Name",B,0.016,0.5,1
+credit_single_name_CCC,credit,"Credit, Single Name",CCC,0.06,0.5,1
+credit_index_IG,credit,"Credit, Index",IG,0.0038,0.8,0.8
+credit_index_SG,credit,"Credit, Index",SG,0.0106,0.8,0.8
+equity_single_name,equity,"Equity, Single name",,0.32,0.5,1.2
+equity_index,equity,"Equity, Index",,0.2,0.8,0.75
+commodity_electricity,commodity,Commodity,Electricity,0.4,0.4,1.5
+commodity_oil/gas,commodity,Commodity,Oil/Gas,0.18,0.4,0.7
+commodity_metals,commodity,Commodity,Metals,0.18,0.4,0.7
+commodity_agricultural,commodity,Commodity,Agricultural,0.18,0.4,0.7
+commodity_other,commodity,Commodity,Other,0.18,0.4,0.7
